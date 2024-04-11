@@ -1,13 +1,34 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     const navLinks = <>
-        <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/updateProfile'}>Update Profile</NavLink></li>
-        <li><NavLink to={'/userProfile'}>User profile</NavLink></li>
+        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+            return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "",
+                background: isActive ? '#CA8A04' : '',
+                viewTransitionName: isTransitioning ? "slide" : "",
+            };
+        }} to={'/'}>Home</NavLink></li>
+        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+            return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "",
+                background: isActive ? '#CA8A04' : '',
+                viewTransitionName: isTransitioning ? "slide" : "",
+            };
+        }} to={'/updateProfile'}>Update Profile</NavLink></li>
+        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+            return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "white" : "",
+                background: isActive ? '#CA8A04' : '',
+                viewTransitionName: isTransitioning ? "slide" : "",
+            };
+        }} to={'/userProfile'}>User profile</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 my-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -17,7 +38,7 @@ const NavBar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link to={'/'} className="py-2 px-5 rounded-lg hover:bg-yellow-500  bg-yellow-600 text-white font-bold duration-700 text-xl ">RealBizz</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -25,7 +46,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn">Login</a>
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import {
     createBrowserRouter
 } from "react-router-dom";
 import ErrorPage from "../Error/ErrorPage";
+import EstateDatails from "../Pages/EstateDatails/EstateDatails";
 import Home from "../Pages/Home/Home";
 import Banner from "../Pages/Shared/Banner/Banner";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
@@ -21,6 +22,11 @@ const Router = createBrowserRouter([
             {
                 path:'/',
                 element:<Banner></Banner>,
+            },
+            {
+                path:'/estates/:id',
+                element:<EstateDatails></EstateDatails>,
+                loader: ()=> fetch('/estates.json')
             },
             {
                 path:'/updateProfile',

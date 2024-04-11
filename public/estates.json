@@ -5,7 +5,7 @@
     "segment_name": "Residential",
     "description": "Contemporary apartment with stunning city views, located in the heart of downtown.",
     "price": "$500,000",
-    "status": "sale",
+    "status": "Rent",
     "area": "1200 sq ft",
     "location": "New York City, NY",
     "facilities": [
@@ -53,7 +53,7 @@
     "segment_name": "Residential",
     "description": "Charming cabin retreat surrounded by breathtaking mountain views, perfect for nature lovers.",
     "price": "$400,000",
-    "status": "sale",
+    "status": "Rent",
     "area": "1500 sq ft",
     "location": "Asheville, NC",
     "facilities": [
@@ -85,7 +85,7 @@
     "segment_name": "Residential",
     "description": "Sleek loft space with exposed brick walls and industrial accents, perfect for modern urban living.",
     "price": "$800,000",
-    "status": "sale",
+    "status": "Rent",
     "area": "2000 sq ft",
     "location": "San Francisco, CA",
     "facilities": [
@@ -101,7 +101,7 @@
     "segment_name": "Residential",
     "description": "Classic colonial-style home with timeless charm and elegant features, located in a historic district.",
     "price": "$1,200,000",
-    "status": "sale",
+    "status": "Rent",
     "area": "3500 sq ft",
     "location": "Philadelphia, PA",
     "facilities": [
