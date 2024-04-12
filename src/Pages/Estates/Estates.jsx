@@ -11,7 +11,7 @@ const Estates = ({ estate }) => {
         AOS.init({ duration: 1200 });
     })
     return (
-        <div  data-aos="fade-up" className="p-6 border rounded-md shadow-lg card bg-base-100 dark:bg-gray-50 dark:text-gray-900">
+        <div  data-aos="fade-up" className="p-6 border justify-between shadow-lg card bg-base-100 dark:bg-gray-50 dark:text-gray-900">
             <div className='relative'>
                 <img src={image} alt="" className="object-cover dark:opacity-90 object-center w-full rounded-md h-72 dark:bg-gray-500" />
                 <div className='absolute bottom-3 left-4'>
@@ -39,7 +39,7 @@ const Estates = ({ estate }) => {
                 </div>
             </div>
             <p className="dark:text-gray-800">{description}</p>
-            <Link to={`/estates/${id}`}>
+            <Link to={`/estates/${id}`} className=''>
                 <button className='py-2 px-3 my-3 text-center text-white rounded-lg hover:bg-yellow-500 bg-yellow-600 duration-300  w-full '>View Property</button>
             </Link>
         </div>

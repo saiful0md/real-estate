@@ -1,0 +1,76 @@
+ [
+      {
+        "image": "https://i.ibb.co/N1t67r9/background-rarotonga-beautiful-day-summer-1203-4663.jpg",
+        "id": 1,
+        "estate_title": "Seaside Cottage Escape",
+        "segment_name": "Vacation rentals",
+        "description": "Charming seaside cottage with panoramic ocean views, private beach access, and cozy fireplace, perfect for a romantic getaway.",
+        "price": "$250/night",
+        "status": "rent",
+        "area": "1,200 sq ft",
+        "location": "123 Oceanfront Drive",
+        "facilities": ["private beach access", "fireplace", "ocean views"]
+      },
+      {
+        "image": "https://i.ibb.co/WttbcRt/luxury-water-swimming-resort-hotel-1203-4648.jpg",
+        "id": 2,
+        "estate_title": "Mountain Cabin Retreat",
+        "segment_name": "Vacation rentals",
+        "description": "Cozy mountain cabin nestled in the woods, featuring a hot tub, hiking trails, and breathtaking mountain vistas, ideal for nature lovers.",
+        "price": "$200/night",
+        "status": "rent",
+        "area": "800 sq ft",
+        "location": "456 Mountain Trail",
+        "facilities": ["hot tub", "hiking trails", "mountain views"]
+      },
+      {
+        "image": "https://i.ibb.co/Dz7tmjS/old-buildings-gardens-nesebar-bulgaria-627829-14114.jpg",
+        "id": 3,
+        "estate_title": "City Center Loft",
+        "segment_name": "Vacation rentals",
+        "description": "Modern loft apartment in the heart of the city, with skyline views, trendy cafes nearby, and easy access to cultural attractions, perfect for urban exploration.",
+        "price": "$150/night",
+        "status": "rent",
+        "area": "900 sq ft",
+        "location": "789 Downtown Avenue",
+        "facilities": ["city views", "nearby cafes", "cultural attractions"]
+      },
+      {
+        "image": "https://i.ibb.co/yg5LhVC/luxury-mediterranean-style-villa.jpg",
+        "id": 4,
+        "estate_title": "Lakefront Chalet",
+        "segment_name": "Vacation rentals",
+        "description": "Rustic lakefront chalet with a private dock, kayaks, and fishing gear provided, offering serene lake views and outdoor adventures for the whole family.",
+        "price": "$300/night",
+        "status": "rent",
+        "area": "1,500 sq ft",
+        "location": "101 Lakeview Lane",
+        "facilities": ["private dock", "kayaks", "fishing gear"]
+      },
+      {
+        "image": "https://i.ibb.co/dP0DPNp/3d-render-of-a-forest-house-on-the-lake-with-jetty-at-dawn.jpg",
+        "id": 5,
+        "estate_title": "Beach Resort Condo",
+        "segment_name": "Vacation rentals",
+        "description": "Luxurious beach resort condo with pools, spa, and direct beach access, offering relaxation and fun in the sun for all ages.",
+        "price": "$350/night",
+        "status": "rent",
+        "area": "1,800 sq ft",
+        "location": "789 Beachfront Avenue",
+        "facilities": ["pools", "spa", "beach access"]
+      },
+      {
+        "image": "https://i.ibb.co/34F149Y/provencal-farmhouse.jpg",
+        "id": 6,
+        "estate_title": "Vineyard Villa",
+        "segment_name": "Vacation rentals",
+        "description": "Quaint villa nestled in a vineyard, offering wine tasting tours, vineyard views, and serene countryside ambiance, perfect for wine enthusiasts.",
+        "price": "$280/night",
+        "status": "rent",
+        "area": "1,000 sq ft",
+        "location": "246 Vineyard Lane",
+        "facilities": ["wine tasting tours", "vineyard views", "countryside ambiance"]
+      }
+    ]
+
+  

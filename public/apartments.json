@@ -1,0 +1,76 @@
+ [
+      {
+        "image": "https://i.ibb.co/HCMxfRX/photo-1560448204-e02f11c3d0e2-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces-edg.jpg",
+        "id": 1,
+        "estate_title": "Luxury Downtown Apartment",
+        "segment_name": "Apartments",
+        "description": "Luxurious apartment in the heart of downtown, featuring modern amenities, skyline views, and concierge service.",
+        "price": "$3,000/month",
+        "status": "rent",
+        "area": "1,500 sq ft",
+        "location": "123 Main Street",
+        "facilities": ["living room", "kitchen", "gym", "concierge service"]
+      },
+      {
+        "image": "https://i.ibb.co/DkyqBHF/photo-1564471925181-982d3a6c1a3f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 2,
+        "estate_title": "Urban Studio Loft",
+        "segment_name": "Apartments",
+        "description": "Chic studio loft in an urban setting, with exposed brick walls, high ceilings, and close proximity to trendy cafes and boutiques.",
+        "price": "$1,500/month",
+        "status": "rent",
+        "area": "800 sq ft",
+        "location": "456 Elm Avenue",
+        "facilities": ["living area", "kitchenette", "laundry facilities"]
+      },
+      {
+        "image": "https://i.ibb.co/qkRZSTH/beautiful-shot-big-farmhouse-clear-blue-sky-181624-15996.jpg",
+        "id": 3,
+        "estate_title": "Family-Friendly Apartment Complex",
+        "segment_name": "Apartments",
+        "description": "Family-friendly apartment complex with playground, swimming pool, and spacious units, perfect for young families.",
+        "price": "$2,200/month",
+        "status": "rent",
+        "area": "1,200 sq ft",
+        "location": "789 Oak Street",
+        "facilities": ["living room", "kitchen", "playground", "swimming pool"]
+      },
+      {
+        "image": "https://i.ibb.co/YBRsfMw/luxury-beach-house-with-sea-view-swimming-pool-terrace-modern-design-42251-321.jpg",
+        "id": 4,
+        "estate_title": "Pet-Friendly Apartment",
+        "segment_name": "Apartments",
+        "description": "Pet-friendly apartment with on-site dog park, grooming station, and pet-friendly amenities, ideal for pet lovers.",
+        "price": "$1,800/month",
+        "status": "rent",
+        "area": "1,000 sq ft",
+        "location": "101 Maple Avenue",
+        "facilities": ["living room", "kitchen", "dog park", "pet grooming station"]
+      },
+      {
+        "image": "https://i.ibb.co/K6fP5kg/white-concrete-building-with-balconies-250224-234.jpg",
+        "id": 5,
+        "estate_title": "Executive Penthouse Suite",
+        "segment_name": "Apartments",
+        "description": "Executive penthouse suite with panoramic city views, gourmet kitchen, and luxurious finishes, perfect for professionals.",
+        "price": "$5,000/month",
+        "status": "rent",
+        "area": "2,500 sq ft",
+        "location": "789 Pine Street",
+        "facilities": ["living room", "kitchen", "rooftop terrace", "fitness center"]
+      },
+      {
+        "image": "https://i.ibb.co/Zzw0NNx/photo-1599738817853-abb92453c2f1-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 6,
+        "estate_title": "Cozy Suburban Apartment",
+        "segment_name": "Apartments",
+        "description": "Cozy apartment nestled in a suburban neighborhood, with access to community amenities and nearby parks.",
+        "price": "$1,200/month",
+        "status": "rent",
+        "area": "900 sq ft",
+        "location": "246 Oak Lane",
+        "facilities": ["living room", "kitchen", "community amenities", "nearby parks"]
+      }
+    ]
+ 
+  

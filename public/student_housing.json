@@ -1,0 +1,75 @@
+ [
+      {
+        "image": "https://i.ibb.co/BnDZYGd/hotel-building-ho-chi-minh-vietnam-1262-3238.jpg",
+        "id": 1,
+        "estate_title": "Modern Student Dormitory",
+        "segment_name": "Student housing",
+        "description": "Modern student dormitory offering fully furnished rooms, communal study areas, and recreational facilities, conveniently located near the university campus.",
+        "price": "$800/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "123 University Avenue",
+        "facilities": ["fully furnished rooms", "communal study areas", "recreational facilities"]
+      },
+      {
+        "image": "https://i.ibb.co/DG4DVh0/street-view-frankfurt-downtown-germany-1268-20879.jpg",
+        "id": 2,
+        "estate_title": "Campus Apartment Complex",
+        "segment_name": "Student housing",
+        "description": "Campus apartment complex with individual leases, roommate matching service, and on-site amenities such as a fitness center and pool.",
+        "price": "$900/month (per room)",
+        "status": "rent",
+        "area": "Varies",
+        "location": "456 College Street",
+        "facilities": ["individual leases", "roommate matching service", "fitness center", "pool"]
+      },
+      {
+        "image": "https://i.ibb.co/HtYRC5k/daylight-analog-city-landscape-with-buildings-23-2149661402.jpg",
+        "id": 3,
+        "estate_title": "Cozy Student House",
+        "segment_name": "Student housing",
+        "description": "Cozy student house with shared common areas, private bedrooms, and a backyard for outdoor gatherings, ideal for a group of friends.",
+        "price": "$700/month (per room)",
+        "status": "rent",
+        "area": "Varies",
+        "location": "789 Dormitory Drive",
+        "facilities": ["shared common areas", "private bedrooms", "backyard"]
+      },
+      {
+        "image": "https://i.ibb.co/x6rg6WQ/city-background-panoramic-view-23-2148892915.jpg",
+        "id": 4,
+        "estate_title": "Student Apartments Near Campus",
+        "segment_name": "Student housing",
+        "description": "Student apartments located within walking distance of campus, offering furnished units, on-site laundry, and a community lounge.",
+        "price": "$950/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "101 Residence Road",
+        "facilities": ["furnished units", "on-site laundry", "community lounge"]
+      },
+      {
+        "image": "https://i.ibb.co/JKcSV8s/hotel-nevada-usa-1268-14393.jpg",
+        "id": 5,
+        "estate_title": "Modern Student Residence Hall",
+        "segment_name": "Student housing",
+        "description": "Modern student residence hall with suite-style living, study lounges, and dining options, fostering a vibrant academic community.",
+        "price": "$850/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "789 Campus Court",
+        "facilities": ["suite-style living", "study lounges", "dining options"]
+      },
+      {
+        "image": "https://i.ibb.co/s1pRjdJ/photo-1555962414-5c1a20592432-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces-edg.jpg",
+        "id": 6,
+        "estate_title": "Affordable Student Housing",
+        "segment_name": "Student housing",
+        "description": "Affordable student housing option with flexible lease terms, utilities included, and convenient access to public transportation.",
+        "price": "$600/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "246 Student Street",
+        "facilities": ["flexible lease terms", "utilities included", "public transportation access"]
+      }
+    ]
+  

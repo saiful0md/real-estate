@@ -1,8 +1,16 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider/AuthProvider";
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext)
+    const handleSingOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
     const navLinks = <>
-        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+        <li className="mr-3"><NavLink style={({ isActive, isTransitioning }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "white" : "",
@@ -10,7 +18,7 @@ const NavBar = () => {
                 viewTransitionName: isTransitioning ? "slide" : "",
             };
         }} to={'/'}>Home</NavLink></li>
-        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+        <li className="mr-3"><NavLink style={({ isActive, isTransitioning }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "white" : "",
@@ -18,7 +26,7 @@ const NavBar = () => {
                 viewTransitionName: isTransitioning ? "slide" : "",
             };
         }} to={'/updateProfile'}>Update Profile</NavLink></li>
-        <li className="mr-3"><NavLink style={({ isActive,  isTransitioning }) => {
+        <li className="mr-3"><NavLink style={({ isActive, isTransitioning }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "white" : "",
@@ -46,7 +54,14 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Login</a>
+                {
+                    user ? <button onClick={handleSingOut} className="btn">Sign Out</button>
+                        :
+                        <Link to={'/login'}>
+                            <button className="btn">Login</button>
+                        </Link>
+                }
+                <Link to={'/register'} className="btn">Register</Link>
             </div>
         </div>
     );

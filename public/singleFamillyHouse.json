@@ -1,0 +1,104 @@
+[
+    {
+        "image": "https://i.ibb.co/m9H4rkB/house-isolated-field-1303-23773.jpg",
+        "id": 1,
+        "estate_title": "Spacious Family Retreat",
+        "segment_name": "Single-family homes",
+        "description": "A spacious family home featuring large bedrooms, a gourmet kitchen, and a backyard oasis with a pool and outdoor kitchen.",
+        "price": "$600,000",
+        "status": "sale",
+        "area": "3,500 sq ft",
+        "location": "1234 Maple Avenue",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "swimming pool",
+            "outdoor kitchen"
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/k6hHMyd/charming-yellow-house-with-wooden-windows-green-grassy-garden-181624-8074.jpg",
+        "id": 2,
+        "estate_title": "Classic Colonial Home",
+        "segment_name": "Single-family homes",
+        "description": "A classic colonial-style home with elegant architectural details, including crown molding and hardwood floors.",
+        "price": "$450,000",
+        "status": "sale",
+        "area": "2,800 sq ft",
+        "location": "567 Pine Street",
+        "facilities": [
+            "living room",
+            "dining room",
+            "study",
+            "backyard"
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/qkRZSTH/beautiful-shot-big-farmhouse-clear-blue-sky-181624-15996.jpg",
+        "id": 3,
+        "estate_title": "Modern Family Residence",
+        "segment_name": "Single-family homes",
+        "description": "A modern family residence with sleek finishes, an open floor plan, and a rooftop terrace with city views.",
+        "price": "$750,000",
+        "status": "sale",
+        "area": "3,200 sq ft",
+        "location": "890 Oak Lane",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "rooftop terrace",
+            "garage"
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/23WJzMy/photo-1504615755583-2916b52192a3-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 4,
+        "estate_title": "Riverside Retreat",
+        "segment_name": "Single-family homes",
+        "description": "A charming riverside retreat boasting panoramic views, a cozy fireplace, and a private dock for boating enthusiasts.",
+        "price": "$700,000",
+        "status": "sale",
+        "area": "3,000 sq ft",
+        "location": "111 River Road",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "fireplace",
+            "private dock"
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/RcJSkDC/photo-1579297206620-c410c4af42e4-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 5,
+        "estate_title": "Family-Friendly Suburban Home",
+        "segment_name": "Single-family homes",
+        "description": "A family-friendly home located in a quiet suburban neighborhood, featuring a spacious backyard and nearby parks.",
+        "price": "$400,000",
+        "status": "sale",
+        "area": "2,500 sq ft",
+        "location": "789 Elm Street",
+        "facilities": [
+            "living room",
+            "kitchen",
+            "backyard",
+            "garage"
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/B3hgQJf/photo-1592595896616-c37162298647-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 6,
+        "estate_title": "Elegant Estate with Pool",
+        "segment_name": "Single-family homes",
+        "description": "An elegant estate featuring a grand foyer, formal dining room, and a backyard oasis with a pool and lush landscaping.",
+        "price": "$850,000",
+        "status": "sale",
+        "area": "4,000 sq ft",
+        "location": "246 Oakwood Drive",
+        "facilities": [
+            "living room",
+            "dining room",
+            "swimming pool",
+            "garden"
+        ]
+    }
+]

@@ -4,10 +4,12 @@ import {
 import ErrorPage from "../Error/ErrorPage";
 import EstateDatails from "../Pages/EstateDatails/EstateDatails";
 import Home from "../Pages/Home/Home";
-import Banner from "../Pages/Shared/Banner/Banner";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../Pages/UserProfile/UserProfile";
 import Root from "../layouts/Root";
+import PrivateRoute from "./PrivateRoute";
 const Router = createBrowserRouter([
     {
         path:'/',
@@ -17,16 +19,20 @@ const Router = createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>,
-                loader:()=> fetch('/estates.json')
-            },
-            {
-                path:'/',
-                element:<Banner></Banner>,
+                loader:()=> fetch('/singleFamillyHouse.json')
             },
             {
                 path:'/estates/:id',
-                element:<EstateDatails></EstateDatails>,
+                element:<PrivateRoute><EstateDatails></EstateDatails></PrivateRoute>,
                 loader: ()=> fetch('/estates.json')
+            },
+            {
+                path:'/login',
+                element:<Login></Login>
+            },
+            {
+                path:'/register',
+                element:<Register></Register>
             },
             {
                 path:'/updateProfile',

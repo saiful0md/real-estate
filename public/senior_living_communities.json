@@ -1,0 +1,76 @@
+ [
+      {
+        "image": "https://i.ibb.co/92NG5Mb/photo-1515070902842-139c7f2ded6f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 1,
+        "estate_title": "Retirement Village Retreat",
+        "segment_name": "Senior living communities",
+        "description": "Retirement village offering independent living, assisted living, and memory care services, surrounded by serene landscapes and walking paths.",
+        "price": "$3,500/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "123 Serenity Lane",
+        "facilities": ["independent living", "assisted living", "memory care", "walking paths"]
+      },
+      {
+        "image": "https://i.ibb.co/wcMz3h1/photo-1617246404544-ce51a00c7d42-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 2,
+        "estate_title": "Luxury Senior Apartments",
+        "segment_name": "Senior living communities",
+        "description": "Luxury senior apartments with resort-style amenities, including a clubhouse, fitness center, and scheduled transportation, promoting an active lifestyle.",
+        "price": "$4,000/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "456 Tranquility Terrace",
+        "facilities": ["resort-style amenities", "clubhouse", "fitness center", "scheduled transportation"]
+      },
+      {
+        "image": "https://i.ibb.co/GT9TyS2/old-wooden-house-village-1268-14691.jpg",
+        "id": 3,
+        "estate_title": "Senior Living Condos",
+        "segment_name": "Senior living communities",
+        "description": "Senior living condos with customizable living spaces, 24/7 security, and on-site medical services, providing comfort and peace of mind.",
+        "price": "$5,500/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "789 Harmony Avenue",
+        "facilities": ["customizable living spaces", "24/7 security", "on-site medical services"]
+      },
+      {
+        "image": "https://i.ibb.co/HzktJhy/premium-photo-1680100348118-8f061dc08cf8-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg",
+        "id": 4,
+        "estate_title": "Active Adult Community",
+        "segment_name": "Senior living communities",
+        "description": "Active adult community featuring maintenance-free living, social activities, and access to nearby golf courses and recreational facilities.",
+        "price": "$3,000/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "101 Peaceful Place",
+        "facilities": ["maintenance-free living", "social activities", "golf courses", "recreational facilities"]
+      },
+      {
+        "image": "https://i.ibb.co/svs6mZt/photo-1516095901529-0ef7be431a4f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 5,
+        "estate_title": "Senior Co-Housing Community",
+        "segment_name": "Senior living communities",
+        "description": "Senior co-housing community promoting social interaction and shared responsibilities, with communal meals, gardening, and group activities.",
+        "price": "$2,500/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "789 Comfort Court",
+        "facilities": ["social interaction", "communal meals", "gardening", "group activities"]
+      },
+      {
+        "image": "https://i.ibb.co/CWcGJBx/photo-1505819244306-ef53954f9648-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+        "id": 6,
+        "estate_title": "Affordable Senior Living Apartments",
+        "segment_name": "Senior living communities",
+        "description": "Affordable senior living apartments offering comfortable accommodations, supportive services, and community events, designed for budget-conscious seniors.",
+        "price": "$2,000/month",
+        "status": "rent",
+        "area": "Varies",
+        "location": "246 Serene Street",
+        "facilities": ["comfortable accommodations", "supportive services", "community events"]
+      }
+    ]
+ 
+  
