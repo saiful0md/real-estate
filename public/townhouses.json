@@ -1,76 +1,104 @@
- [
-      {
-        "image": "",
-        "id": 1,
-        "estate_title": "Urban Townhouse Living",
-        "segment_name": "Townhouses",
-        "description": "Modern townhouse living in the heart of the city, featuring sleek design, rooftop terrace, and attached garage.",
-        "price": "$700,000",
-        "status": "sale",
-        "area": "2,000 sq ft",
-        "location": "123 Main Street",
-        "facilities": ["living room", "kitchen", "rooftop terrace", "attached garage"]
-      },
-      {
-        "image": "https://i.ibb.co/0hHzdZX/housing-mansion-residentail-dwelling-architecture-53876-30337.jpg",
-        "id": 2,
-        "estate_title": "Luxury Waterfront Townhome",
-        "segment_name": "Townhouses",
-        "description": "Luxury waterfront living in this spacious townhome boasting panoramic views, private boat dock, and gourmet kitchen.",
-        "price": "$1,200,000",
-        "status": "sale",
-        "area": "3,500 sq ft",
-        "location": "456 Elm Avenue",
-        "facilities": ["living room", "kitchen", "private boat dock", "community pool"]
-      },
-      {
-        "image": "https://i.ibb.co/X5rLJ2F/exterior-modern-residential-building-637285-1921.jpg",
-        "id": 3,
-        "estate_title": "Chic Townhouse Retreat",
-        "segment_name": "Townhouses",
-        "description": "Chic townhouse retreat with designer finishes, open floor plan, and private courtyard for outdoor entertaining.",
-        "price": "$850,000",
-        "status": "sale",
-        "area": "2,800 sq ft",
-        "location": "789 Oak Street",
-        "facilities": ["living room", "kitchen", "private courtyard", "community gym"]
-      },
-      {
-        "image": "https://i.ibb.co/fXzdrJX/beautiful-multicolored-houses-facades-notting-hill-657883-750.jpg",
-        "id": 4,
-        "estate_title": "Family-Friendly Townhouse",
-        "segment_name": "Townhouses",
-        "description": "Family-friendly townhouse with spacious bedrooms, fenced backyard, and community playground.",
-        "price": "$500,000",
-        "status": "sale",
-        "area": "2,200 sq ft",
-        "location": "101 Maple Avenue",
-        "facilities": ["living room", "kitchen", "fenced backyard", "community playground"]
-      },
-      {
-        "image": "https://i.ibb.co/gdxp3By/photo-1577593980495-6e7f66a54ee6-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
-        "id": 5,
-        "estate_title": "Downtown Executive Townhome",
-        "segment_name": "Townhouses",
-        "description": "Executive townhome in downtown location, featuring high-end finishes, rooftop deck, and city skyline views.",
-        "price": "$900,000",
-        "status": "sale",
-        "area": "2,500 sq ft",
-        "location": "789 Pine Street",
-        "facilities": ["living room", "kitchen", "rooftop deck", "garage"]
-      },
-      {
-        "image": "https://i.ibb.co/V2pZz0z/premium-photo-1676357175263-722f1cd6d882-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg",
-        "id": 6,
-        "estate_title": "Cozy Townhouse in Suburbia",
-        "segment_name": "Townhouses",
-        "description": "Cozy townhouse nestled in suburban community, offering peace and tranquility with easy access to amenities.",
-        "price": "$400,000",
-        "status": "sale",
-        "area": "1,800 sq ft",
-        "location": "246 Oak Lane",
-        "facilities": ["living room", "kitchen", "patio", "attached garage"]
-      }
+[
+  {
+    "image": "",
+    "id": 1,
+    "estate_title": "Urban Townhouse Living",
+    "segment_name": "Townhouses",
+    "description": "Modern townhouse living in the heart of the city, featuring sleek design, rooftop terrace, and attached garage.",
+    "price": "$700,000",
+    "status": "sale",
+    "area": "2,000 sq ft",
+    "location": "123 Main Street",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "rooftop terrace",
+      "attached garage"
     ]
-
-  
+  },
+  {
+    "image": "https://i.ibb.co/0hHzdZX/housing-mansion-residentail-dwelling-architecture-53876-30337.jpg",
+    "id": 2,
+    "estate_title": "Luxury Waterfront Townhome",
+    "segment_name": "Townhouses",
+    "description": "Luxury waterfront living in this spacious townhome boasting panoramic views, private boat dock, and gourmet kitchen.",
+    "price": "$1,200,000",
+    "status": "sale",
+    "area": "3,500 sq ft",
+    "location": "456 Elm Avenue",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "private boat dock",
+      "community pool"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/X5rLJ2F/exterior-modern-residential-building-637285-1921.jpg",
+    "id": 3,
+    "estate_title": "Chic Townhouse Retreat",
+    "segment_name": "Townhouses",
+    "description": "Chic townhouse retreat with designer finishes, open floor plan, and private courtyard for outdoor entertaining.",
+    "price": "$850,000",
+    "status": "sale",
+    "area": "2,800 sq ft",
+    "location": "789 Oak Street",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "private courtyard",
+      "community gym"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/fXzdrJX/beautiful-multicolored-houses-facades-notting-hill-657883-750.jpg",
+    "id": 4,
+    "estate_title": "Family-Friendly Townhouse",
+    "segment_name": "Townhouses",
+    "description": "Family-friendly townhouse with spacious bedrooms, fenced backyard, and community playground.",
+    "price": "$500,000",
+    "status": "sale",
+    "area": "2,200 sq ft",
+    "location": "101 Maple Avenue",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "fenced backyard",
+      "community playground"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/gdxp3By/photo-1577593980495-6e7f66a54ee6-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+    "id": 5,
+    "estate_title": "Downtown Executive Townhome",
+    "segment_name": "Townhouses",
+    "description": "Executive townhome in downtown location, featuring high-end finishes, rooftop deck, and city skyline views.",
+    "price": "$900,000",
+    "status": "sale",
+    "area": "2,500 sq ft",
+    "location": "789 Pine Street",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "rooftop deck",
+      "garage"
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/V2pZz0z/premium-photo-1676357175263-722f1cd6d882-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg",
+    "id": 6,
+    "estate_title": "Cozy Townhouse in Suburbia",
+    "segment_name": "Townhouses",
+    "description": "Cozy townhouse nestled in suburban community, offering peace and tranquility with easy access to amenities.",
+    "price": "$400,000",
+    "status": "sale",
+    "area": "1,800 sq ft",
+    "location": "246 Oak Lane",
+    "facilities": [
+      "living room",
+      "kitchen",
+      "patio",
+      "attached garage"
+    ]
+  }
+]

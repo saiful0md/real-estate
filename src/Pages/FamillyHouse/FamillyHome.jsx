@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { FaLocationDot } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
-const Estates = ({ estate }) => {
+const FamillyHome = ({estate}) => {
     const { id, estate_title, image, segment_name, description, location, price, area, facilities, status } = estate;
     useEffect(() => {
         AOS.init({ duration: 1200 });
@@ -39,14 +39,16 @@ const Estates = ({ estate }) => {
                 </div>
             </div>
             <p className="dark:text-gray-800">{description}</p>
-            <Link to={`/estates/${id}`} className=''>
+            <Link to={`/famillyHomeDetails/${id}`} className=''>
                 <button className='py-2 px-3 my-3 text-center text-white rounded-lg hover:bg-yellow-500 bg-yellow-600 duration-300  w-full '>View Property</button>
             </Link>
         </div>
 
     );
 };
-Estates.propTypes = {
+
+FamillyHome.propTypes = {
     estate: PropTypes.object
 }
-export default Estates;
+
+export default FamillyHome;

@@ -1,0 +1,506 @@
+{
+  "single_family_homes": [
+    {
+      "image": "https://i.ibb.co/m9H4rkB/house-isolated-field-1303-23773.jpg",
+      "id": 1,
+      "estate_title": "Spacious Family Retreat",
+      "segment_name": "Single-family homes",
+      "description": "A spacious family home featuring large bedrooms, a gourmet kitchen, and a backyard oasis with a pool and outdoor kitchen.",
+      "price": "$600,000",
+      "status": "sale",
+      "area": "3,500 sq ft",
+      "location": "1234 Maple Avenue",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "swimming pool",
+        "outdoor kitchen"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/k6hHMyd/charming-yellow-house-with-wooden-windows-green-grassy-garden-181624-8074.jpg",
+      "id": 2,
+      "estate_title": "Classic Colonial Home",
+      "segment_name": "Single-family homes",
+      "description": "A classic colonial-style home with elegant architectural details, including crown molding and hardwood floors.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "2,800 sq ft",
+      "location": "567 Pine Street",
+      "facilities": [
+        "living room",
+        "dining room",
+        "study",
+        "backyard"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/qkRZSTH/beautiful-shot-big-farmhouse-clear-blue-sky-181624-15996.jpg",
+      "id": 3,
+      "estate_title": "Modern Family Residence",
+      "segment_name": "Single-family homes",
+      "description": "A modern family residence with sleek finishes, an open floor plan, and a rooftop terrace with city views.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "3,200 sq ft",
+      "location": "890 Oak Lane",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "rooftop terrace",
+        "garage"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/23WJzMy/photo-1504615755583-2916b52192a3-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 4,
+      "estate_title": "Riverside Retreat",
+      "segment_name": "Single-family homes",
+      "description": "A charming riverside retreat boasting panoramic views, a cozy fireplace, and a private dock for boating enthusiasts.",
+      "price": "$700,000",
+      "status": "sale",
+      "area": "3,000 sq ft",
+      "location": "111 River Road",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "fireplace",
+        "private dock"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/RcJSkDC/photo-1579297206620-c410c4af42e4-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 5,
+      "estate_title": "Family-Friendly Suburban Home",
+      "segment_name": "Single-family homes",
+      "description": "A family-friendly home located in a quiet suburban neighborhood, featuring a spacious backyard and nearby parks.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "2,500 sq ft",
+      "location": "789 Elm Street",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "backyard",
+        "garage"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/B3hgQJf/photo-1592595896616-c37162298647-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 6,
+      "estate_title": "Elegant Estate with Pool",
+      "segment_name": "Single-family homes",
+      "description": "An elegant estate featuring a grand foyer, formal dining room, and a backyard oasis with a pool and lush landscaping.",
+      "price": "$850,000",
+      "status": "sale",
+      "area": "4,000 sq ft",
+      "location": "246 Oakwood Drive",
+      "facilities": [
+        "living room",
+        "dining room",
+        "swimming pool",
+        "garden"
+      ]
+    }
+  ],
+  "townhouses": [
+    {
+      "image": "https://i.ibb.co/B3hgQJf/photo-1592595896616-c37162298647-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 1,
+      "estate_title": "Urban Townhouse Living",
+      "segment_name": "Townhouses",
+      "description": "Modern townhouse living in the heart of the city, featuring sleek design, rooftop terrace, and attached garage.",
+      "price": "$700,000",
+      "status": "sale",
+      "area": "2,000 sq ft",
+      "location": "123 Main Street",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "rooftop terrace",
+        "attached garage"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/0hHzdZX/housing-mansion-residentail-dwelling-architecture-53876-30337.jpg",
+      "id": 2,
+      "estate_title": "Luxury Waterfront Townhome",
+      "segment_name": "Townhouses",
+      "description": "Luxury waterfront living in this spacious townhome boasting panoramic views, private boat dock, and gourmet kitchen.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "3,500 sq ft",
+      "location": "456 Elm Avenue",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "private boat dock",
+        "community pool"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/X5rLJ2F/exterior-modern-residential-building-637285-1921.jpg",
+      "id": 3,
+      "estate_title": "Chic Townhouse Retreat",
+      "segment_name": "Townhouses",
+      "description": "Chic townhouse retreat with designer finishes, open floor plan, and private courtyard for outdoor entertaining.",
+      "price": "$850,000",
+      "status": "sale",
+      "area": "2,800 sq ft",
+      "location": "789 Oak Street",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "private courtyard",
+        "community gym"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/fXzdrJX/beautiful-multicolored-houses-facades-notting-hill-657883-750.jpg",
+      "id": 4,
+      "estate_title": "Family-Friendly Townhouse",
+      "segment_name": "Townhouses",
+      "description": "Family-friendly townhouse with spacious bedrooms, fenced backyard, and community playground.",
+      "price": "$500,000",
+      "status": "sale",
+      "area": "2,200 sq ft",
+      "location": "101 Maple Avenue",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "fenced backyard",
+        "community playground"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/gdxp3By/photo-1577593980495-6e7f66a54ee6-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 5,
+      "estate_title": "Downtown Executive Townhome",
+      "segment_name": "Townhouses",
+      "description": "Executive townhome in downtown location, featuring high-end finishes, rooftop deck, and city skyline views.",
+      "price": "$900,000",
+      "status": "sale",
+      "area": "2,500 sq ft",
+      "location": "789 Pine Street",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "rooftop deck",
+        "garage"
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/V2pZz0z/premium-photo-1676357175263-722f1cd6d882-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg",
+      "id": 6,
+      "estate_title": "Cozy Townhouse in Suburbia",
+      "segment_name": "Townhouses",
+      "description": "Cozy townhouse nestled in suburban community, offering peace and tranquility with easy access to amenities.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "1,800 sq ft",
+      "location": "246 Oak Lane",
+      "facilities": [
+        "living room",
+        "kitchen",
+        "patio",
+        "attached garage"
+      ]
+    }
+  ],
+  "apartments":  [
+    {
+      "image": "https://i.ibb.co/HCMxfRX/photo-1560448204-e02f11c3d0e2-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces-edg.jpg",
+      "id": 1,
+      "estate_title": "Luxury Downtown Apartment",
+      "segment_name": "Apartments",
+      "description": "Luxurious apartment in the heart of downtown, featuring modern amenities, skyline views, and concierge service.",
+      "price": "$3,000/month",
+      "status": "rent",
+      "area": "1,500 sq ft",
+      "location": "123 Main Street",
+      "facilities": ["living room", "kitchen", "gym", "concierge service"]
+    },
+    {
+      "image": "https://i.ibb.co/DkyqBHF/photo-1564471925181-982d3a6c1a3f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 2,
+      "estate_title": "Urban Studio Loft",
+      "segment_name": "Apartments",
+      "description": "Chic studio loft in an urban setting, with exposed brick walls, high ceilings, and close proximity to trendy cafes and boutiques.",
+      "price": "$1,500/month",
+      "status": "rent",
+      "area": "800 sq ft",
+      "location": "456 Elm Avenue",
+      "facilities": ["living area", "kitchenette", "laundry facilities"]
+    },
+    {
+      "image": "https://i.ibb.co/qkRZSTH/beautiful-shot-big-farmhouse-clear-blue-sky-181624-15996.jpg",
+      "id": 3,
+      "estate_title": "Family-Friendly Apartment Complex",
+      "segment_name": "Apartments",
+      "description": "Family-friendly apartment complex with playground, swimming pool, and spacious units, perfect for young families.",
+      "price": "$2,200/month",
+      "status": "rent",
+      "area": "1,200 sq ft",
+      "location": "789 Oak Street",
+      "facilities": ["living room", "kitchen", "playground", "swimming pool"]
+    },
+    {
+      "image": "https://i.ibb.co/YBRsfMw/luxury-beach-house-with-sea-view-swimming-pool-terrace-modern-design-42251-321.jpg",
+      "id": 4,
+      "estate_title": "Pet-Friendly Apartment",
+      "segment_name": "Apartments",
+      "description": "Pet-friendly apartment with on-site dog park, grooming station, and pet-friendly amenities, ideal for pet lovers.",
+      "price": "$1,800/month",
+      "status": "rent",
+      "area": "1,000 sq ft",
+      "location": "101 Maple Avenue",
+      "facilities": ["living room", "kitchen", "dog park", "pet grooming station"]
+    },
+    {
+      "image": "https://i.ibb.co/K6fP5kg/white-concrete-building-with-balconies-250224-234.jpg",
+      "id": 5,
+      "estate_title": "Executive Penthouse Suite",
+      "segment_name": "Apartments",
+      "description": "Executive penthouse suite with panoramic city views, gourmet kitchen, and luxurious finishes, perfect for professionals.",
+      "price": "$5,000/month",
+      "status": "rent",
+      "area": "2,500 sq ft",
+      "location": "789 Pine Street",
+      "facilities": ["living room", "kitchen", "rooftop terrace", "fitness center"]
+    },
+    {
+      "image": "https://i.ibb.co/Zzw0NNx/photo-1599738817853-abb92453c2f1-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 6,
+      "estate_title": "Cozy Suburban Apartment",
+      "segment_name": "Apartments",
+      "description": "Cozy apartment nestled in a suburban neighborhood, with access to community amenities and nearby parks.",
+      "price": "$1,200/month",
+      "status": "rent",
+      "area": "900 sq ft",
+      "location": "246 Oak Lane",
+      "facilities": ["living room", "kitchen", "community amenities", "nearby parks"]
+    }
+  ],
+  "student_housing": [
+    {
+      "image": "https://i.ibb.co/BnDZYGd/hotel-building-ho-chi-minh-vietnam-1262-3238.jpg",
+      "id": 1,
+      "estate_title": "Modern Student Dormitory",
+      "segment_name": "Student housing",
+      "description": "Modern student dormitory offering fully furnished rooms, communal study areas, and recreational facilities, conveniently located near the university campus.",
+      "price": "$800/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "123 University Avenue",
+      "facilities": ["fully furnished rooms", "communal study areas", "recreational facilities"]
+    },
+    {
+      "image": "https://i.ibb.co/DG4DVh0/street-view-frankfurt-downtown-germany-1268-20879.jpg",
+      "id": 2,
+      "estate_title": "Campus Apartment Complex",
+      "segment_name": "Student housing",
+      "description": "Campus apartment complex with individual leases, roommate matching service, and on-site amenities such as a fitness center and pool.",
+      "price": "$900/month (per room)",
+      "status": "rent",
+      "area": "Varies",
+      "location": "456 College Street",
+      "facilities": ["individual leases", "roommate matching service", "fitness center", "pool"]
+    },
+    {
+      "image": "https://i.ibb.co/HtYRC5k/daylight-analog-city-landscape-with-buildings-23-2149661402.jpg",
+      "id": 3,
+      "estate_title": "Cozy Student House",
+      "segment_name": "Student housing",
+      "description": "Cozy student house with shared common areas, private bedrooms, and a backyard for outdoor gatherings, ideal for a group of friends.",
+      "price": "$700/month (per room)",
+      "status": "rent",
+      "area": "Varies",
+      "location": "789 Dormitory Drive",
+      "facilities": ["shared common areas", "private bedrooms", "backyard"]
+    },
+    {
+      "image": "https://i.ibb.co/x6rg6WQ/city-background-panoramic-view-23-2148892915.jpg",
+      "id": 4,
+      "estate_title": "Student Apartments Near Campus",
+      "segment_name": "Student housing",
+      "description": "Student apartments located within walking distance of campus, offering furnished units, on-site laundry, and a community lounge.",
+      "price": "$950/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "101 Residence Road",
+      "facilities": ["furnished units", "on-site laundry", "community lounge"]
+    },
+    {
+      "image": "https://i.ibb.co/JKcSV8s/hotel-nevada-usa-1268-14393.jpg",
+      "id": 5,
+      "estate_title": "Modern Student Residence Hall",
+      "segment_name": "Student housing",
+      "description": "Modern student residence hall with suite-style living, study lounges, and dining options, fostering a vibrant academic community.",
+      "price": "$850/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "789 Campus Court",
+      "facilities": ["suite-style living", "study lounges", "dining options"]
+    },
+    {
+      "image": "https://i.ibb.co/s1pRjdJ/photo-1555962414-5c1a20592432-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces-edg.jpg",
+      "id": 6,
+      "estate_title": "Affordable Student Housing",
+      "segment_name": "Student housing",
+      "description": "Affordable student housing option with flexible lease terms, utilities included, and convenient access to public transportation.",
+      "price": "$600/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "246 Student Street",
+      "facilities": ["flexible lease terms", "utilities included", "public transportation access"]
+    }
+  ],
+  "senior_living_communities": [
+    {
+      "image": "https://i.ibb.co/92NG5Mb/photo-1515070902842-139c7f2ded6f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 1,
+      "estate_title": "Retirement Village Retreat",
+      "segment_name": "Senior living communities",
+      "description": "Retirement village offering independent living, assisted living, and memory care services, surrounded by serene landscapes and walking paths.",
+      "price": "$3,500/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "123 Serenity Lane",
+      "facilities": ["independent living", "assisted living", "memory care", "walking paths"]
+    },
+    {
+      "image": "https://i.ibb.co/wcMz3h1/photo-1617246404544-ce51a00c7d42-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 2,
+      "estate_title": "Luxury Senior Apartments",
+      "segment_name": "Senior living communities",
+      "description": "Luxury senior apartments with resort-style amenities, including a clubhouse, fitness center, and scheduled transportation, promoting an active lifestyle.",
+      "price": "$4,000/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "456 Tranquility Terrace",
+      "facilities": ["resort-style amenities", "clubhouse", "fitness center", "scheduled transportation"]
+    },
+    {
+      "image": "https://i.ibb.co/GT9TyS2/old-wooden-house-village-1268-14691.jpg",
+      "id": 3,
+      "estate_title": "Senior Living Condos",
+      "segment_name": "Senior living communities",
+      "description": "Senior living condos with customizable living spaces, 24/7 security, and on-site medical services, providing comfort and peace of mind.",
+      "price": "$5,500/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "789 Harmony Avenue",
+      "facilities": ["customizable living spaces", "24/7 security", "on-site medical services"]
+    },
+    {
+      "image": "https://i.ibb.co/HzktJhy/premium-photo-1680100348118-8f061dc08cf8-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg",
+      "id": 4,
+      "estate_title": "Active Adult Community",
+      "segment_name": "Senior living communities",
+      "description": "Active adult community featuring maintenance-free living, social activities, and access to nearby golf courses and recreational facilities.",
+      "price": "$3,000/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "101 Peaceful Place",
+      "facilities": ["maintenance-free living", "social activities", "golf courses", "recreational facilities"]
+    },
+    {
+      "image": "https://i.ibb.co/svs6mZt/photo-1516095901529-0ef7be431a4f-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 5,
+      "estate_title": "Senior Co-Housing Community",
+      "segment_name": "Senior living communities",
+      "description": "Senior co-housing community promoting social interaction and shared responsibilities, with communal meals, gardening, and group activities.",
+      "price": "$2,500/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "789 Comfort Court",
+      "facilities": ["social interaction", "communal meals", "gardening", "group activities"]
+    },
+    {
+      "image": "https://i.ibb.co/CWcGJBx/photo-1505819244306-ef53954f9648-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg",
+      "id": 6,
+      "estate_title": "Affordable Senior Living Apartments",
+      "segment_name": "Senior living communities",
+      "description": "Affordable senior living apartments offering comfortable accommodations, supportive services, and community events, designed for budget-conscious seniors.",
+      "price": "$2,000/month",
+      "status": "rent",
+      "area": "Varies",
+      "location": "246 Serene Street",
+      "facilities": ["comfortable accommodations", "supportive services", "community events"]
+    }
+  ],
+  "vacation_rentals":  [
+    {
+      "image": "https://i.ibb.co/N1t67r9/background-rarotonga-beautiful-day-summer-1203-4663.jpg",
+      "id": 1,
+      "estate_title": "Seaside Cottage Escape",
+      "segment_name": "Vacation rentals",
+      "description": "Charming seaside cottage with panoramic ocean views, private beach access, and cozy fireplace, perfect for a romantic getaway.",
+      "price": "$250/night",
+      "status": "rent",
+      "area": "1,200 sq ft",
+      "location": "123 Oceanfront Drive",
+      "facilities": ["private beach access", "fireplace", "ocean views"]
+    },
+    {
+      "image": "https://i.ibb.co/WttbcRt/luxury-water-swimming-resort-hotel-1203-4648.jpg",
+      "id": 2,
+      "estate_title": "Mountain Cabin Retreat",
+      "segment_name": "Vacation rentals",
+      "description": "Cozy mountain cabin nestled in the woods, featuring a hot tub, hiking trails, and breathtaking mountain vistas, ideal for nature lovers.",
+      "price": "$200/night",
+      "status": "rent",
+      "area": "800 sq ft",
+      "location": "456 Mountain Trail",
+      "facilities": ["hot tub", "hiking trails", "mountain views"]
+    },
+    {
+      "image": "https://i.ibb.co/Dz7tmjS/old-buildings-gardens-nesebar-bulgaria-627829-14114.jpg",
+      "id": 3,
+      "estate_title": "City Center Loft",
+      "segment_name": "Vacation rentals",
+      "description": "Modern loft apartment in the heart of the city, with skyline views, trendy cafes nearby, and easy access to cultural attractions, perfect for urban exploration.",
+      "price": "$150/night",
+      "status": "rent",
+      "area": "900 sq ft",
+      "location": "789 Downtown Avenue",
+      "facilities": ["city views", "nearby cafes", "cultural attractions"]
+    },
+    {
+      "image": "https://i.ibb.co/yg5LhVC/luxury-mediterranean-style-villa.jpg",
+      "id": 4,
+      "estate_title": "Lakefront Chalet",
+      "segment_name": "Vacation rentals",
+      "description": "Rustic lakefront chalet with a private dock, kayaks, and fishing gear provided, offering serene lake views and outdoor adventures for the whole family.",
+      "price": "$300/night",
+      "status": "rent",
+      "area": "1,500 sq ft",
+      "location": "101 Lakeview Lane",
+      "facilities": ["private dock", "kayaks", "fishing gear"]
+    },
+    {
+      "image": "https://i.ibb.co/dP0DPNp/3d-render-of-a-forest-house-on-the-lake-with-jetty-at-dawn.jpg",
+      "id": 5,
+      "estate_title": "Beach Resort Condo",
+      "segment_name": "Vacation rentals",
+      "description": "Luxurious beach resort condo with pools, spa, and direct beach access, offering relaxation and fun in the sun for all ages.",
+      "price": "$350/night",
+      "status": "rent",
+      "area": "1,800 sq ft",
+      "location": "789 Beachfront Avenue",
+      "facilities": ["pools", "spa", "beach access"]
+    },
+    {
+      "image": "https://i.ibb.co/34F149Y/provencal-farmhouse.jpg",
+      "id": 6,
+      "estate_title": "Vineyard Villa",
+      "segment_name": "Vacation rentals",
+      "description": "Quaint villa nestled in a vineyard, offering wine tasting tours, vineyard views, and serene countryside ambiance, perfect for wine enthusiasts.",
+      "price": "$280/night",
+      "status": "rent",
+      "area": "1,000 sq ft",
+      "location": "246 Vineyard Lane",
+      "facilities": ["wine tasting tours", "vineyard views", "countryside ambiance"]
+    }
+  ]
+}
