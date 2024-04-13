@@ -1,11 +1,13 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
 import NavBar from "../Shared/NavBar/NavBar";
 
 const Login = () => {
-    const { signIn } = useContext(AuthContext)
+    const { signIn, googleSignIn } = useContext(AuthContext)
+    const [loginError, setLoginError] = useState('')
     const location = useLocation();
     const navigate = useNavigate()
     const handleLogIn = (e) => {
@@ -13,15 +15,27 @@ const Login = () => {
         const form = new FormData(e.currentTarget)
         const email = form.get("email");
         const password = form.get("password");
+       
+        
+        
 
-
+        setLoginError('')
         signIn(email, password)
-            .then(result => {
-                console.log(result.user);
+            .then(() => {
+                toast("Login Successfully");
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
-                console.log(error.message);
+                setLoginError(error.message);
+            })
+    }
+    const handleGoogleSignIn = () => {
+        googleSignIn()
+            .then(() => {
+                toast("Google Login Successfully");
+            })
+            .catch(error => {
+                setLoginError(error.message);
             })
     }
     return (
@@ -48,11 +62,14 @@ const Login = () => {
                     <div className="form-control mt-6">
                         <button className="btn btn-primary">Login</button>
                     </div>
+                    {
+                        loginError && <p className="text-red-600">{loginError}</p>
+                    }
                 </form>
-
+                <ToastContainer></ToastContainer>
 
                 <div className="my-6 space-y-4">
-                    <button aria-label="Login with Google" type="button" className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600">
+                    <button  onClick={handleGoogleSignIn} aria-label="Login with Google" type="button" className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600">
                         <FaGoogle></FaGoogle>
                         <p>Login with Google</p>
                     </button>

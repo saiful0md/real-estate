@@ -56,26 +56,20 @@ const NavBar = () => {
             <div className="navbar-end">
                 {
                     user ?
-                        <div className="flex items-center gap-4">
-                            <div className="avatar">
-                                <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                    <img src={user?.photoURL || "https://ibb.co/dmD0nFZ"} />
+                        <div className="dropdown dropdown-end">
+                            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                                <div className="w-8 rounded-full">
+                                    <img alt="Tailwind CSS Navbar component" src={user.photoURL} />
                                 </div>
-                                    <div className="menu lg:menu-horizontal bg-base-200 rounded-box ">
-
-                                        <details>
-                                            <ul>
-                                                <li><a>Submenu 1</a></li>
-                                                <li><a>Submenu 2</a></li>
-                                            </ul>
-                                        </details>
-
-                                    </div>
                             </div>
-                            <button onClick={handleSingOut} className="btn btn-sm">Sign Out</button>
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <li>
+                                    <button className="btn btn-sm">{user.displayName}</button>
+                                </li>
+                                <button onClick={handleSingOut} className="btn btn-sm">Sign Out</button>
+                            </ul>
                         </div>
-                        :
-                        <div className="flex items-center">
+                        : <div className="flex items-center">
 
                             <Link to={'/login'}>
                                 <button className="btn btn-sm">Login</button>

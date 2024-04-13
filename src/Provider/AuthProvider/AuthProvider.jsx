@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from 'firebase/auth';
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import PropTypes from 'prop-types';
 import { createContext, useEffect, useState } from 'react';
 import app from '../../firebase/firebase.config';
@@ -7,6 +7,7 @@ import app from '../../firebase/firebase.config';
 export const AuthContext = createContext(null)
 const auth = getAuth(app)
 
+const provider = new GoogleAuthProvider();
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null)
     const [loading, setLoading] = useState(true)
@@ -16,13 +17,15 @@ const AuthProvider = ({ children }) => {
         return createUserWithEmailAndPassword(auth, name, photo, email, password)
     }
 
+
     // update user 
-    const updateUserProfile = (name, image) => {
-      return  updateProfile(auth.currentUser, {
+    const UserProfile = (name, image) => {
+        setLoading(true)
+        return updateProfile(auth.currentUser, {
             displayName: name,
             photoURL: image
         })
-            
+
     }
 
     // signin
@@ -30,8 +33,18 @@ const AuthProvider = ({ children }) => {
         setLoading(true)
         return signInWithEmailAndPassword(auth, email, password)
     }
+    // google signing
+    const googleSignIn = () => {
+        setLoading(true)
+        return signInWithPopup(auth, provider)
+    }
+    // signOut
+    const logOut = () => {
+        setLoading(true)
+        return signOut(auth)
+    }
 
-
+    // onAuthStateChanged
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, currentUser => {
             setUser(currentUser)
@@ -41,16 +54,13 @@ const AuthProvider = ({ children }) => {
             unsubscribe()
         }
     }, [])
-    // signOut
-    const logOut = () => {
-        setLoading(true)
-        return signOut(auth)
-    }
+
     const authInfo = {
         createUser,
-        updateUserProfile,
+        UserProfile,
         user,
         signIn,
+        googleSignIn,
         loading,
         logOut
     }

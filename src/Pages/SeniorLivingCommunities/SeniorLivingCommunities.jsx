@@ -10,7 +10,7 @@ const SeniorLivingCommunities = ({estate}) => {
         AOS.init({ duration: 1200 });
     })
     return (
-        <div  data-aos="fade-left" className="p-6 border justify-between shadow-lg card bg-base-100 dark:bg-gray-50 dark:text-gray-900">
+        <div  data-aos="fade-up" className="p-6 border justify-between shadow-lg card bg-base-100 dark:bg-gray-50 dark:text-gray-900">
         <div className='relative'>
             <img src={image} alt="" className="object-cover dark:opacity-90 object-center w-full rounded-md h-72 dark:bg-gray-500" />
             <div className='absolute bottom-3 left-4'>

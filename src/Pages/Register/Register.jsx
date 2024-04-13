@@ -1,12 +1,13 @@
 import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
 import Footer from "../Shared/Footer/Footer";
 import NavBar from "../Shared/NavBar/NavBar";
-
 const Register = () => {
-    const { createUser, updateUserProfile } = useContext(AuthContext);
-    const [userInfo, setUserIfo] = useState([])
+    const { createUser, UserProfile } = useContext(AuthContext);
+    const [registerError, setRegisterError] = useState('')
     const location = useLocation()
     const navigate = useNavigate()
     const handleRegister = e => {
@@ -16,17 +17,26 @@ const Register = () => {
         const password = form.get("password")
         const photo = form.get("photo")
         const name = form.get("name")
+        const passwordValidation = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
+        setRegisterError('')
+        if(password < passwordValidation){
+            setRegisterError("Password must have at least one uppercase letter, one lowercase letter, and be at least 6 characters long");
+            return
+        }
         // create user 
         createUser(email, password, photo, name)
-            .then(result => {
-                updateUserProfile(name, photo)
-                .then(()=>{
-
-                    navigate(location?.state ||  '/')
-                })
-                console.log(result.user);
-                setUserIfo(result.user);
+        .then(result => {
+            toast("Register Successfully");
+            UserProfile(name, photo)
+            .then(()=>{
+                navigate(location?.state ||  "/")
             })
+            
+            console.log(result.user);
+        })
+        .catch(error =>{
+            setRegisterError(error.message)
+        })
     }
     return (
         <div>
@@ -64,9 +74,12 @@ const Register = () => {
                     <div className="form-control mt-6">
                         <button className="btn btn-primary">Register</button>
                     </div>
-                </form>
-                {userInfo}
+                {
+                    registerError && <p className="text-red-600">{registerError}</p>
+                }
                 <p className=" text-base font-medium text-slate-500 text-center my-4">Dont’t Have An Account ? <Link to={'/login'} className="text-red-600 underline">Login</Link></p>
+                </form>
+                <ToastContainer></ToastContainer>
             </div>
             <Footer></Footer>
         </div>
