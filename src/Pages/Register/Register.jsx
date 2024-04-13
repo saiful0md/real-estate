@@ -5,25 +5,28 @@ import Footer from "../Shared/Footer/Footer";
 import NavBar from "../Shared/NavBar/NavBar";
 
 const Register = () => {
-    const { createUser } = useContext(AuthContext);
-    const [userInfo, setUserIfo]= useState([])
+    const { createUser, updateUserProfile } = useContext(AuthContext);
+    const [userInfo, setUserIfo] = useState([])
     const location = useLocation()
     const navigate = useNavigate()
-    console.log(userInfo);
     const handleRegister = e => {
         e.preventDefault()
         const form = new FormData(e.currentTarget)
         const email = form.get("email")
         const password = form.get("password")
+        const photo = form.get("photo")
+        const name = form.get("name")
         // create user 
-        createUser( email, password)
-        .then(result => {
-            setUserIfo(result.user);
-            navigate(location?.state ? location.state : '/login')
-        })
-        .catch(error =>{
-            setUserIfo(error.message);
-        })
+        createUser(email, password, photo, name)
+            .then(result => {
+                updateUserProfile(name, photo)
+                .then(()=>{
+
+                    navigate(location?.state ||  '/')
+                })
+                console.log(result.user);
+                setUserIfo(result.user);
+            })
     }
     return (
         <div>
@@ -36,6 +39,12 @@ const Register = () => {
                             <span className="label-text">Name</span>
                         </label>
                         <input type="text" name="name" placeholder="name" className="input input-bordered" />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Photo URL</span>
+                        </label>
+                        <input type="text" name="photo" placeholder="photo URL" className="input input-bordered" />
                     </div>
                     <div className="form-control">
                         <label className="label">

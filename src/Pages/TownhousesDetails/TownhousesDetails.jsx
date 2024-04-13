@@ -11,7 +11,6 @@ const TownhousesDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id);
     const townhousesDetails = townhouses.find(estate => estate.id === idInt)
-    console.log(townhousesDetails);
    
     return (
         <div>

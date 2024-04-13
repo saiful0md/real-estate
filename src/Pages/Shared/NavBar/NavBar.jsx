@@ -55,13 +55,34 @@ const NavBar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user ? <button onClick={handleSingOut} className="btn">Sign Out</button>
+                    user ?
+                        <div className="flex items-center gap-4">
+                            <div className="avatar">
+                                <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <img src={user?.photoURL || "https://ibb.co/dmD0nFZ"} />
+                                </div>
+                                    <div className="menu lg:menu-horizontal bg-base-200 rounded-box ">
+
+                                        <details>
+                                            <ul>
+                                                <li><a>Submenu 1</a></li>
+                                                <li><a>Submenu 2</a></li>
+                                            </ul>
+                                        </details>
+
+                                    </div>
+                            </div>
+                            <button onClick={handleSingOut} className="btn btn-sm">Sign Out</button>
+                        </div>
                         :
-                        <Link to={'/login'}>
-                            <button className="btn">Login</button>
-                        </Link>
+                        <div className="flex items-center">
+
+                            <Link to={'/login'}>
+                                <button className="btn btn-sm">Login</button>
+                            </Link>
+                        </div>
                 }
-                <Link to={'/register'} className="btn">Register</Link>
+                <Link to={'/register'} className="btn btn-sm">Register</Link>
             </div>
         </div>
     );
