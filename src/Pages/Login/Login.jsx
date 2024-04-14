@@ -6,7 +6,7 @@ import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
 import NavBar from "../Shared/NavBar/NavBar";
 
 const Login = () => {
-    const { signIn, googleSignIn } = useContext(AuthContext)
+    const { signIn, googleSignIn ,gitHubSignIn } = useContext(AuthContext)
     const [loginError, setLoginError] = useState('')
     const location = useLocation();
     const navigate = useNavigate()
@@ -23,7 +23,9 @@ const Login = () => {
         signIn(email, password)
             .then(() => {
                 toast("Login Successfully");
-                navigate(location?.state ? location.state : '/')
+                setTimeout(() => {
+                    navigate(location?.state ||  "/")
+                }, 1500);
             })
             .catch(error => {
                 setLoginError(error.message);
@@ -31,8 +33,23 @@ const Login = () => {
     }
     const handleGoogleSignIn = () => {
         googleSignIn()
+        .then(() => {
+            toast("Google Login Successfully");
+            setTimeout(() => {
+                navigate(location?.state ||  "/")
+            }, 1500);
+        })
+            .catch(error => {
+                setLoginError(error.message);
+            })
+    }
+    const handleGitHubSignIn = () => {
+        gitHubSignIn()
             .then(() => {
-                toast("Google Login Successfully");
+                toast("Github Login Successfully");
+                setTimeout(() => {
+                    navigate(location?.state ||  "/")
+                }, 1500);
             })
             .catch(error => {
                 setLoginError(error.message);
@@ -73,7 +90,7 @@ const Login = () => {
                         <FaGoogle></FaGoogle>
                         <p>Login with Google</p>
                     </button>
-                    <button aria-label="Login with GitHub" role="button" className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600">
+                    <button onClick={handleGitHubSignIn} aria-label="Login with GitHub" role="button" className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600">
                         <FaGithub></FaGithub>
                         <p>Login with GitHub</p>
                     </button>
