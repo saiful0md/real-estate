@@ -28,7 +28,7 @@ const Login = () => {
                 }, 1500);
             })
             .catch(error => {
-                setLoginError(error.message);
+                setLoginError(  error.message);
             })
     }
     const handleGoogleSignIn = () => {
@@ -80,7 +80,7 @@ const Login = () => {
                         <button className="btn btn-primary">Login</button>
                     </div>
                     {
-                        loginError && <p className="text-red-600">{loginError}</p>
+                        loginError && <p className="text-red-400">{loginError}</p>
                     }
                 </form>
                 <ToastContainer></ToastContainer>

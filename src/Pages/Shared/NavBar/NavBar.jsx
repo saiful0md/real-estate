@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider/AuthProvider";
-
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext)
     const handleSingOut = () => {
@@ -25,15 +24,7 @@ const NavBar = () => {
                 background: isActive ? '#CA8A04' : '',
                 viewTransitionName: isTransitioning ? "slide" : "",
             };
-        }} to={'/updateProfile'}>Update Profile</NavLink></li>
-        <li className="mr-3"><NavLink style={({ isActive, isTransitioning }) => {
-            return {
-                fontWeight: isActive ? "bold" : "",
-                color: isActive ? "white" : "",
-                background: isActive ? '#CA8A04' : '',
-                viewTransitionName: isTransitioning ? "slide" : "",
-            };
-        }} to={'/userProfile'}>User profile</NavLink></li>
+        }} to={'/userProfile'}>Update Profile</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 my-5">
@@ -56,27 +47,29 @@ const NavBar = () => {
             <div className="navbar-end">
                 {
                     user ?
-                        <div className="dropdown dropdown-end">
-                            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                                <div className="w-8 rounded-full">
-                                    <img alt="Tailwind CSS Navbar component" src={user.photoURL} />
+                        <div className="flex items-center">
+                            <div className="dropdown dropdown-end ">
+                                <div tabIndex={0} role="button" data-tip={user?.displayName} className='btn btn-ghost btn-circle avatar'>
+                                    <div className="w-8 rounded-full">
+                                        <img alt="" src={user?.photoURL || 'https://i.ibb.co/YcsgQSK/social-avatar-stories-gradient-frame-41737-3.jpg'} />
+                                    </div>
                                 </div>
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li>
+                                        <button className="btn btn-sm">{user?.displayName}</button>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                <li>
-                                    <button className="btn btn-sm">{user.displayName}</button>
-                                </li>
                                 <button onClick={handleSingOut} className="btn btn-sm">Sign Out</button>
-                            </ul>
                         </div>
                         : <div className="flex items-center">
 
                             <Link to={'/login'}>
                                 <button className="btn btn-sm">Login</button>
                             </Link>
+                            <Link to={'/register'} className="btn btn-sm">Register</Link>
                         </div>
                 }
-                <Link to={'/register'} className="btn btn-sm">Register</Link>
             </div>
         </div>
     );

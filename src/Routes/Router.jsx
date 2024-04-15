@@ -10,7 +10,6 @@ import Register from "../Pages/Register/Register";
 import SeniorLivingCommunitiesDetails from "../Pages/SeniorLivingCommunitiesDetails/SeniorLivingCommunitiesDetails";
 import StudentHousingDetails from "../Pages/StudentHousingDetails/StudentHousingDetails";
 import TownhousesDetails from "../Pages/TownhousesDetails/TownhousesDetails";
-import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../Pages/UserProfile/UserProfile";
 import VacationRentalsDetails from "../Pages/VacationRentalsDetails/VacationRentalsDetails";
 import Root from "../layouts/Root";
@@ -64,10 +63,7 @@ const Router = createBrowserRouter([
                 path:'/register',
                 element:<Register></Register>
             },
-            {
-                path:'/updateProfile',
-                element:<UpdateProfile></UpdateProfile>
-            },
+           
             {
                 path: '/userProfile',
                 element:<PrivateRoute><UserProfile></UserProfile></PrivateRoute>
