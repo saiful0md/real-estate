@@ -1,0 +1,18 @@
+.slider{
+    background: linear-gradient(0deg, rgb(0 0 0 / 41%), rgb(0 0 0 / 30%)),  url("../../../public/slider.jpg");
+    opacity: 0.8
+}
+.slider1{
+    background: linear-gradient(0deg, rgb(0 0 0 / 41%), rgb(0 0 0 / 30%)), url("../../../public/slider1.jpg");
+    opacity: 0.8
+}
+.slider2{
+    background: linear-gradient(0deg, rgb(0 0 0 / 41%), rgb(0 0 0 / 30%)),  url("../../../public/slider2.jpg");
+    opacity: 0.8
+}
+.sliderall{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

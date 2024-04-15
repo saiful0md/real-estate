@@ -1,3 +1,4 @@
+import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import PropTypes from 'prop-types';
@@ -19,9 +20,9 @@ const FamillyHome = ({estate}) => {
                     <p className='text-2xl text-white drop-shadow-2xl bg-gray-900 bg-opacity-40 p-2 rounded-lg font-bold'>{price}</p>
                 </div>
             </div>
-            <p className="text-yellow-600 font-bold mt-6">{segment_name}</p>
+            <p className="text-yellow-600  font-bold mt-6">{segment_name}</p>
             <div className="mt-4 mb-2">
-                <h2 className="text-xl font-bold tracking-wide hover:text-yellow-600 duration-300">{estate_title}</h2>
+                <h2 className="text-xl font-bold tracking-wide animate__animated animate__slideInDown animate__repeat-2 hover:text-yellow-600 duration-300">{estate_title}</h2>
             </div>
             <div className='flex items-center justify-between text-gray-400'>
                 <div className='flex items-center gap-2 text-gray-400'>
