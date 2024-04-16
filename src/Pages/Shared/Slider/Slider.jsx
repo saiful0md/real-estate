@@ -16,9 +16,9 @@ const Slider = () => {
                 className="rounded-xl relative"
             >
                 <Swiper className="mySwiper border rounded-xl">
-                    <SwiperSlide><div className='sliderall slider'></div></SwiperSlide>
-                    <SwiperSlide><div className='sliderall slider1'></div></SwiperSlide>
-                    <SwiperSlide><div className='sliderall slider2'></div></SwiperSlide>
+                    <SwiperSlide><div className='sliderall opacity-[0.8] bg-slider'><img src={'/public/slider.jpg'} alt="" /></div></SwiperSlide>
+                    <SwiperSlide><div className='sliderall opacity-[0.8] bg-slider'><img src={'/public/slider1.jpg'} alt="" /></div></SwiperSlide>
+                    <SwiperSlide><div className='sliderall opacity-[0.8] bg-slider'><img src={'/public/slider2.jpg'} alt="" /></div></SwiperSlide>
                 </Swiper>
                 <div className="absolute top-32 lg:right-[22%] md:right-[20%] z-10 p-2 text-white  text-center">
                     <div className='max-w-xl'>
