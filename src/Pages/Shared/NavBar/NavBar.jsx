@@ -49,14 +49,14 @@ const NavBar = () => {
                     user ?
                         <div className="flex items-center">
                             <div className="dropdown dropdown-end ">
-                                <div tabIndex={0} role="button" data-tip={user?.displayName} className='btn btn-ghost btn-circle avatar'>
+                                <div tabIndex={0} role="button" className='btn btn-ghost btn-circle avatar'>
                                     <div className="w-8 rounded-full">
                                         <img alt="" src={user?.photoURL || 'https://i.ibb.co/YcsgQSK/social-avatar-stories-gradient-frame-41737-3.jpg'} />
                                     </div>
                                 </div>
-                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow bg-base-100 rounded-box w-52">
                                     <li>
-                                        <button className="btn btn-sm">{user?.displayName}</button>
+                                        <button className="btn btn-sm">{user?.displayName || "unknown"}</button>
                                     </li>
                                 </ul>
                             </div>
