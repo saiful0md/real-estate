@@ -1,5 +1,6 @@
 
 import { useContext, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { toast } from "react-toastify";
@@ -33,6 +34,9 @@ const UserProfile = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>RealBizz | User Profile</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="flex flex-col justify-center my-10 lg:max-w-xl border mx-auto p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
                 <img
