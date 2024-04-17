@@ -45,7 +45,7 @@ const NavBar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <Link to={'/'} className="py-2 px-5 rounded-lg hover:bg-yellow-500  bg-yellow-600 text-white font-bold duration-700 text-xl ">RealBizz</Link>
+                <Link to={'/'} className="py-1 px-4 rounded-lg hover:bg-yellow-500  bg-yellow-600 text-white font-bold duration-700 text-xl ">RealBizz</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
