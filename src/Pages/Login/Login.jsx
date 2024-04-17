@@ -3,6 +3,7 @@ import { FaGithub, FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
+import Footer from "../Shared/Footer/Footer";
 import NavBar from "../Shared/NavBar/NavBar";
 
 const Login = () => {
@@ -102,6 +103,7 @@ const Login = () => {
                 </div>
                 <p className=" text-base font-medium text-slate-500 text-center my-4">Dont’t Have An Account ? <Link to={'/register'} className="text-red-600 underline">Register</Link></p>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

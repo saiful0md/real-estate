@@ -49,19 +49,20 @@ const UserProfile = () => {
                         </p>
                     </div>
                     <div className="flex justify-center pt-2 space-x-4 align-center">
-                        <a rel="noopener noreferrer" href="#" aria-label="GitHub" className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600">
+                        <a rel="noopener noreferrer" href="#" aria-label="GitHub" className="p-2 rounded-md dark:text-gray-800 hover:text-yellow-600">
                             <FaGithub></FaGithub>
                         </a>
-                        <a rel="noopener noreferrer" href="#" aria-label="Dribble" className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600">
+                        <a rel="noopener noreferrer" href="#" aria-label="Dribble" className="p-2 rounded-md dark:text-gray-800 hover:text-yellow-600">
                             <FaInstagram></FaInstagram>
                         </a>
-                        <a rel="noopener noreferrer" href="#" aria-label="Twitter" className="p-2 rounded-md dark:text-gray-800 hover:dark:text-violet-600">
+                        <a rel="noopener noreferrer" href="#" aria-label="Twitter" className="p-2 rounded-md dark:text-gray-800 hover:text-yellow-600">
                             <FaTwitter></FaTwitter>
                         </a>
                     </div>
                 </div>
             </div>
             <div className="max-w-xl mx-auto my-10">
+                <h2 className="text-2xl font-bold my-6">Update Your Profile</h2>
             <form className="card-body border rounded-lg " onSubmit={handleSave}>
                 <div className="form-control">
                     <label className="label">

@@ -44,13 +44,13 @@ const Footer = () => {
                         <div className="uppercase dark:text-gray-900">Social media</div>
                         <div className="flex justify-start space-x-3">
                             <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
-                                <FaFacebook className="w-5 h-5 fill-current"></FaFacebook>
+                                <FaFacebook className="w-5 h-5  hover:text-yellow-600  fill-current"></FaFacebook>
                             </a>
                             <a rel="noopener noreferrer" href="#" title="Twitter" className="flex items-center p-1">
-                                <FaTwitter className="w-5 h-5 fill-current"></FaTwitter>
+                                <FaTwitter className="w-5 h-5  hover:text-yellow-600 fill-current"></FaTwitter>
                             </a>
                             <a rel="noopener noreferrer" href="#" title="Instagram" className="flex items-center p-1">
-                                <FaInstagram className="w-5 h-5 fill-current"></FaInstagram>
+                                <FaInstagram className="w-5 h-5 hover:text-yellow-600  fill-current"></FaInstagram>
                             </a>
                         </div>
                     </div>

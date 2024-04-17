@@ -3,6 +3,7 @@ import {
 } from "react-router-dom";
 import ErrorPage from "../Error/ErrorPage";
 import ApartmentsDetails from "../Pages/ApartmentsDetails/ApartmentsDetails";
+import ContactUS from "../Pages/ContactUS/ContactUS";
 import FamillyHomeDetails from "../Pages/FamillyHomeDetails/FamillyHomeDetails";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -67,6 +68,11 @@ const Router = createBrowserRouter([
             {
                 path: '/userProfile',
                 element:<PrivateRoute><UserProfile></UserProfile></PrivateRoute>
+            },
+           
+            {
+                path: '/contactUS',
+                element:<PrivateRoute><ContactUS></ContactUS></PrivateRoute>
             }
 
         ]
